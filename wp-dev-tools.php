@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name:       WP Dev Tools
- * Plugin URI:        https://code045.nl/plugins/the-basics/
+ * Plugin URI:        https://example.com/plugins/the-basics/
  * Description:       A collection of useful tools for WordPress development and management.
  * Version:           1.0.1
- * Author:            Code045
- * Author URI:        https://code045.nl/
+ * Author:            Your Name
+ * Author URI:        https://author.example.com/
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       wp-dev-tools
@@ -33,3 +33,6 @@ require_once plugin_dir_path( __FILE__ ) . 'includes/notifications.php';
 
 // Include the remote library functionality.
 require_once plugin_dir_path( __FILE__ ) . 'includes/remote-library.php';
+
+// Include the assets enqueuing functionality.
+require_once plugin_dir_path( __FILE__ ) . 'includes/assets.php';
